@@ -5,3 +5,32 @@
     text-decoration: none;
     list-style: none;
 }
+.container {
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url(../images/headerbg.jpg) no-repeat center /cover;
+    height: 100vh;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list {
+    display: flex;
+}
+.header__nav-link {
+    margin-left: 40px;
+    color: black;
+    font-family: arial;
+    transition: color 300ms;
+}
+.header__nav-link:hover {
+    color: #2b6ccd;
+}
