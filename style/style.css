@@ -74,3 +74,18 @@
     flex-direction: column;
     justify-content: center;
 }
+.main{
+   
+    background: purple;
+}
+.item{
+    min-height: 500px;
+    background: black;
+    max-width: 300px;
+    width: 100%;
+}
+.main__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
